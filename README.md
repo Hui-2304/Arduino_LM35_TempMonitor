@@ -1,3 +1,8 @@
+## 👤 Author
+
+**Nguyen Quang Bao Huy**  
+- 🌐 Personal Website: [https://hui-2304.github.io/hui-230405/](https://hui-2304.github.io/hui-230405/)
+- 💻 GitHub: [https://github.com/Hui-2304](https://github.com/Hui-2304)
 # Arduino LM35 Temperature Monitoring System
 
 ##  1. Mô tả
