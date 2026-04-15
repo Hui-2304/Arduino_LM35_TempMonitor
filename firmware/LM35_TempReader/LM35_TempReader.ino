@@ -1,5 +1,6 @@
-const int sensorPin1 = A0;
+cconst int sensorPin1 = A0;
 const int sensorPin2 = A1;
+const int sensorPin3 = A2;
 
 void setup() {
   Serial.begin(9600);
@@ -8,17 +9,18 @@ void setup() {
 void loop() {
   int value1 = analogRead(sensorPin1);
   int value2 = analogRead(sensorPin2);
+  int value3 = analogRead(sensorPin3);
 
-  // chuyển sang nhiệt độ
   float temp1 = (value1 * 500.0) / 1023.0;
   float temp2 = (value2 * 500.0) / 1023.0;
+  float temp3 = (value3 * 500.0) / 1023.0;
 
-  // xuất dạng CSV: temp1,temp2
+  // Xuất định dạng JSON cho cả 3 kênh cảm biến
   Serial.print("{\"temp1\":");
   Serial.print(temp1);
-  Serial.print(",\"temp2\":");
+  Serial.print(", \"temp2\":");
   Serial.print(temp2);
-  Serial.print(",\"temp3\":");
+  Serial.print(", \"temp3\":");
   Serial.print(temp3);
   Serial.println("}");
 
