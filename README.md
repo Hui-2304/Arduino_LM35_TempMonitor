@@ -16,7 +16,7 @@ Dự án xây dựng hệ thống đo nhiệt độ sử dụng cảm biến LM3
 
 ---
 
-## 🔌 3. Phần cứng
+##  3. Phần cứng
 
 | Thành phần  | Số lượng | Ghi chú           |
 | ----------- | -------- | ----------------- |
@@ -39,7 +39,7 @@ Dự án xây dựng hệ thống đo nhiệt độ sử dụng cảm biến LM3
 
 ---
 
-### 💻 Chạy chương trình
+###  Chạy chương trình
 
 1. Mở Arduino IDE
 2. Mở file:
@@ -53,7 +53,7 @@ firmware/LM35_TempReader/LM35_TempReader.ino
 
 ---
 
-### 📊 Output (JSON)
+### Output (JSON)
 
 ```json
 {"temp1":25.3,"temp2":26.1,"temp3":24.8}
@@ -61,7 +61,7 @@ firmware/LM35_TempReader/LM35_TempReader.ino
 
 ---
 
-## 🧠 5. Nguyên lý hoạt động
+##  5. Nguyên lý hoạt động
 
 * LM35 xuất điện áp: **10mV / °C**
 * Arduino đọc ADC (0–1023)
@@ -122,4 +122,4 @@ Dự án giúp hiểu rõ:
 
 ---
 
-⭐ Nếu thấy hữu ích, hãy star repo nhé!
+ Nếu thấy hữu ích, hãy star repo nhé!
