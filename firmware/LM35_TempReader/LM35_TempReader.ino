@@ -14,9 +14,13 @@ void loop() {
   float temp2 = (value2 * 500.0) / 1023.0;
 
   // xuất dạng CSV: temp1,temp2
+  Serial.print("{\"temp1\":");
   Serial.print(temp1);
-  Serial.print(",");
-  Serial.println(temp2);
+  Serial.print(",\"temp2\":");
+  Serial.print(temp2);
+  Serial.print(",\"temp3\":");
+  Serial.print(temp3);
+  Serial.println("}");
 
   delay(1000);
 }
